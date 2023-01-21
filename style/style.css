@@ -1,0 +1,47 @@
+/* header section */
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.main-container {
+    background-image: url('../images/banner/banner3.png');
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0 auto;
+}
+
+.sub-container{
+    text-align: end;
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    transform: translate(-40%, -40%);
+    color: white;
+}
+.h-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.h-decsription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 38px;
+}
+
+.main-button {
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    color: #005FAC;
+    padding: 20px 25px;
+    border-radius: 5px;
+    height: 64px;
+    
+}
