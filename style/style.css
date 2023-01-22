@@ -88,9 +88,9 @@ ul {
 }
 
 /* plan styles */
-
 .plans {
-    
+    margin-top: 130px;
+
 }
 
 .plan-title {
@@ -116,4 +116,37 @@ ul {
     font-weight: 500;
     font-size: 25px;
     color: #737272;
+}
+
+/* course style */
+.course{
+    margin: 130px 250px;
+    
+    
+}
+
+.course-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 20px;
+}
+
+.course-info{
+    text-align: center;
+}
+
+.course-name{
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+    margin-bottom: 15px;
+}
+
+.course-description{
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+    margin-bottom: 15px;
 }
