@@ -1,4 +1,4 @@
-/* header section */
+/* header style */
 * {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
@@ -46,7 +46,7 @@
     margin-bottom: 130px;
 }
 
-/* failure section */
+/* failure styles*/
 .failure {
     margin: 130px auto;
     width: 1072px;
@@ -82,6 +82,38 @@ ul {
     font-size: 16px;
     gap: 8px;
 }
-.fa-solid{
+
+.fa-solid {
     color: #00FF00;
+}
+
+/* plan styles */
+
+.plans {
+    
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin: 125px 45%;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 230px;
+}
+
+.skill-name {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.skill-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
