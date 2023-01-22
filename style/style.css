@@ -13,14 +13,14 @@
     margin: 0 auto;
 }
 
-.sub-container{
+.sub-container {
     text-align: end;
     position: absolute;
     top: 45%;
-    left: 75%;
+    left: 70%;
     transform: translate(-40%, -40%);
-    color: white;
 }
+
 .h-title {
     font-weight: 700;
     font-size: 65px;
@@ -43,5 +43,45 @@
     padding: 20px 25px;
     border-radius: 5px;
     height: 64px;
-    
+    margin-bottom: 130px;
+}
+
+/* failure section */
+.failure {
+    margin: 130px auto;
+    width: 1072px;
+}
+
+.f-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prev-year {
+    margin-top: 370px;
+    margin-left: 90px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failure-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style-position: inside;
+    font-weight: 400;
+    font-size: 16px;
+    gap: 8px;
+}
+.fa-solid{
+    color: #00FF00;
 }
